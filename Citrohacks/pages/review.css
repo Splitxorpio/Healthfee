@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.review {
+    padding: 2% 0;
+}
+
+.review .review_header_info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review .review_header_info h1 {
+    font-size: 2.5rem;
+}
+
+.review .review_header_info p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.review .review_header_info span {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.review .add_input  {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.review .add_input form {
+    display: flex;
+    align-items: center;
+    background-color: #e666773d;
+    padding: 1.5% 2%;
+}
+
+.review .add_input form textarea {
+    outline: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 1% 2%;
+    color: rgba(0, 0, 0, 0.8);
+    width: 85%;
+    height: 45px;
+}
+
+.review .add_input form button {
+    padding: 10px 36px;
+    color: white;
+    background-color: #E66677;
+    border-radius: 30px;
+    border: 1px solid #E66677;
+    margin-left: 30px;
+    font-size: 1.2rem;
+}
+
+.review .review_list_container {
+    padding: 3%; 
+    margin-bottom: 30px;
+}
+
+.review .review_list_container .review_list {
+    padding: 3%; 
+    margin: 3% 0;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.review .review_list_container .review_list p {
+    font-size: 1.3rem;
+}
